@@ -73,6 +73,15 @@ Children:
     Type: BaseDataVariableType
     DataType: String
     Value: "BOOL_OUT_1"
+- Name: BOOL_OUT_10
+  Id: g=4bbfbac110149443501c628b2c5c243a
+  Type: MicroControllerTag
+  DataType: Boolean
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "BOOL_OUT_10"
 - Name: BOOL_OUT_2
   Type: MicroControllerTag
   DataType: Boolean
@@ -129,6 +138,15 @@ Children:
     Type: BaseDataVariableType
     DataType: String
     Value: "BOOL_OUT_8"
+- Name: BOOL_OUT_9
+  Id: g=a6fb338ff4e7c4b978b63bdb54ad8284
+  Type: MicroControllerTag
+  DataType: Boolean
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "BOOL_OUT_9"
 - Name: FLOAT_OUT_0
   Type: MicroControllerTag
   DataType: Float
@@ -411,14 +429,6 @@ Children:
     Type: BaseDataVariableType
     DataType: String
     Value: "LineA_Belt_Speed"
-- Name: LineA_Belt_Speed_Fault
-  Type: MicroControllerTag
-  DataType: Float
-  Children:
-  - Name: SymbolName
-    Type: BaseDataVariableType
-    DataType: String
-    Value: "LineA_Belt_Speed_Fault"
 - Name: LineA_Blue_Count
   Type: MicroControllerTag
   DataType: Int32
@@ -435,14 +445,14 @@ Children:
     Type: BaseDataVariableType
     DataType: String
     Value: "LineA_Fault_Active"
-- Name: LineA_Fault_Pushed
+- Name: LineA_Fault_Code
   Type: MicroControllerTag
-  DataType: Boolean
+  DataType: Int32
   Children:
   - Name: SymbolName
     Type: BaseDataVariableType
     DataType: String
-    Value: "LineA_Fault_Pushed"
+    Value: "LineA_Fault_Code"
 - Name: LineA_Green_Count
   Type: MicroControllerTag
   DataType: Int32
@@ -502,14 +512,6 @@ Children:
     Type: BaseDataVariableType
     DataType: String
     Value: "LineB_Belt_Speed"
-- Name: LineB_Belt_Speed_Fault
-  Type: MicroControllerTag
-  DataType: Float
-  Children:
-  - Name: SymbolName
-    Type: BaseDataVariableType
-    DataType: String
-    Value: "LineB_Belt_Speed_Fault"
 - Name: LineB_Blue_Count
   Type: MicroControllerTag
   DataType: Int32
@@ -526,14 +528,14 @@ Children:
     Type: BaseDataVariableType
     DataType: String
     Value: "LineB_Fault_Active"
-- Name: LineB_Fault_Pushed
+- Name: LineB_Fault_Code
   Type: MicroControllerTag
-  DataType: Boolean
+  DataType: Int32
   Children:
   - Name: SymbolName
     Type: BaseDataVariableType
     DataType: String
-    Value: "LineB_Fault_Pushed"
+    Value: "LineB_Fault_Code"
 - Name: LineB_Green_Count
   Type: MicroControllerTag
   DataType: Int32
