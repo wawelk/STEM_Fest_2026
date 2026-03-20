@@ -273,6 +273,22 @@ Children:
     Type: BaseDataVariableType
     DataType: String
     Value: "FLOAT_OUT_9"
+- Name: Game_Countdown
+  Type: MicroControllerTag
+  DataType: Int32
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Game_Countdown"
+- Name: Game_High_Score
+  Type: MicroControllerTag
+  DataType: Int32
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Game_High_Score"
 - Name: Game_Initiated
   Type: MicroControllerTag
   DataType: Boolean
@@ -281,6 +297,46 @@ Children:
     Type: BaseDataVariableType
     DataType: String
     Value: "Game_Initiated"
+- Name: Game_LineA_Win_Counter
+  Type: MicroControllerTag
+  DataType: Int32
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Game_LineA_Win_Counter"
+- Name: Game_LineA_Winner
+  Type: MicroControllerTag
+  DataType: Boolean
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Game_LineA_Winner"
+- Name: Game_LineB_Win_Counter
+  Type: MicroControllerTag
+  DataType: Int32
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Game_LineB_Win_Counter"
+- Name: Game_LineB_Winner
+  Type: MicroControllerTag
+  DataType: Boolean
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Game_LineB_Winner"
+- Name: Game_Played_Counter
+  Type: MicroControllerTag
+  DataType: Int32
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Game_Played_Counter"
 - Name: Game_Reset_PB
   Id: g=e90cc4b8363be6e352a4cfc4fe35b5ae
   Type: MicroControllerTag
@@ -290,6 +346,14 @@ Children:
     Type: BaseDataVariableType
     DataType: String
     Value: "Game_Reset_PB"
+- Name: Game_Reset_Stats
+  Type: MicroControllerTag
+  DataType: Boolean
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Game_Reset_Stats"
 - Name: Game_Start_PB
   Id: g=f9bd2f02dfd276b3b219eed63c90c75e
   Type: MicroControllerTag
@@ -299,6 +363,46 @@ Children:
     Type: BaseDataVariableType
     DataType: String
     Value: "Game_Start_PB"
+- Name: Game_Tie_Win_Counter
+  Type: MicroControllerTag
+  DataType: Int32
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Game_Tie_Win_Counter"
+- Name: Game_Tie_Winner
+  Type: MicroControllerTag
+  DataType: Boolean
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Game_Tie_Winner"
+- Name: Game_Timer_Done
+  Type: MicroControllerTag
+  DataType: Boolean
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Game_Timer_Done"
+- Name: Game_Timer_Minutes
+  Type: MicroControllerTag
+  DataType: Int32
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Game_Timer_Minutes"
+- Name: Game_Timer_Seconds
+  Type: MicroControllerTag
+  DataType: Int32
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Game_Timer_Seconds"
 - Name: LineA_Belt_Speed
   Type: MicroControllerTag
   DataType: Float
@@ -331,6 +435,14 @@ Children:
     Type: BaseDataVariableType
     DataType: String
     Value: "LineA_Fault_Active"
+- Name: LineA_Fault_Pushed
+  Type: MicroControllerTag
+  DataType: Boolean
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "LineA_Fault_Pushed"
 - Name: LineA_Green_Count
   Type: MicroControllerTag
   DataType: Int32
@@ -414,6 +526,14 @@ Children:
     Type: BaseDataVariableType
     DataType: String
     Value: "LineB_Fault_Active"
+- Name: LineB_Fault_Pushed
+  Type: MicroControllerTag
+  DataType: Boolean
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "LineB_Fault_Pushed"
 - Name: LineB_Green_Count
   Type: MicroControllerTag
   DataType: Int32
