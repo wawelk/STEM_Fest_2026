@@ -1,0 +1,15 @@
+Name: NetLogic
+Type: NetLogicCategoryFolder
+Children:
+- Name: RandomNumberGeneratorA
+  Id: g=85143822bee9b111c2c8dffa9c2851ab
+  Type: NetLogic
+  Children:
+  - Class: Method
+    Name: GenerateRandomFloat
+- Name: RandomNumberGeneratorB
+  Id: g=b6a6774af778049cd2b1ced3bbb9b47d
+  Type: NetLogic
+  Children:
+  - Class: Method
+    Name: GenerateRandomFloat

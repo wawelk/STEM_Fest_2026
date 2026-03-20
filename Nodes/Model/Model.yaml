@@ -1,0 +1,29 @@
+Name: Model
+Type: ModelCategoryFolder
+Children:
+- Name: LineA_Speed
+  Type: BaseDataVariableType
+  DataType: Float
+  Children:
+  - Name: DynamicLink
+    Type: DynamicLink
+    DataType: NodePath
+    Value: "../../CommDrivers/RAMicroControllerDriver1/MicroCPU/Tags/LineA_Belt_Speed_Fault"
+    Children:
+    - Name: Mode
+      Type: BaseVariableType
+      DataType: DynamicLinkMode
+      Value: 2
+- Name: LineB_Speed
+  Type: BaseDataVariableType
+  DataType: Float
+  Children:
+  - Name: DynamicLink
+    Type: DynamicLink
+    DataType: NodePath
+    Value: "../../CommDrivers/RAMicroControllerDriver1/MicroCPU/Tags/LineB_Belt_Speed_Fault"
+    Children:
+    - Name: Mode
+      Type: BaseVariableType
+      DataType: DynamicLinkMode
+      Value: 2

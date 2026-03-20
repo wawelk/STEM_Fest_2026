@@ -1,0 +1,13 @@
+Name: Groups
+Id: g=33ac98afcbbcd645bc8146197074cc43
+Type: GroupsCategoryFolder
+Children:
+- Name: STEM Fest
+  Id: g=c010d6a31a43d7c5186f1f16ad24d4a9
+  Type: GroupType
+- Name: Line A
+  Id: g=dcaf5b8ab62b0ebc12f3038121df4eae
+  Type: GroupType
+- Name: Line B
+  Id: g=53e6999dfab81eadd8d774ea0d3c373a
+  Type: GroupType
