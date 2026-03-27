@@ -311,7 +311,7 @@ Children:
       Type: BaseDataVariableType
       DataType: Color
       ModellingRule: Optional
-      Value: "#4dff0f"
+      Value: "#2593c9"
     - Name: TextColor
       Type: BaseDataVariableType
       DataType: Color
@@ -500,7 +500,7 @@ Children:
       Type: BaseDataVariableType
       DataType: Color
       ModellingRule: Optional
-      Value: "#f8e71c"
+      Value: "#f49314"
     - Name: TextColor
       Type: BaseDataVariableType
       DataType: Color
@@ -790,7 +790,7 @@ Children:
       Type: BaseDataVariableType
       DataType: Color
       ModellingRule: Optional
-      Value: "#de935f"
+      Value: "#f49314"
     - Name: Visible
       Type: BaseDataVariableType
       DataType: Boolean
@@ -840,7 +840,7 @@ Children:
       Type: BaseDataVariableType
       DataType: Color
       ModellingRule: Optional
-      Value: "#de935f"
+      Value: "#f49314"
     - Name: Visible
       Type: BaseDataVariableType
       DataType: Boolean
