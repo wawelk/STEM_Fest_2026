@@ -1144,7 +1144,7 @@ Children:
         Type: BaseDataVariableType
         DataType: LocalizedText
         ModellingRule: Optional
-        Value: {"LocaleId":"en-US","Text":"Welcome to STEM Fest 2026"}
+        Value: {"LocaleId":"en-US","Text":"The Sorting Sprint: Powered by the International Society of Automation"}
       - Name: LeftMargin
         Type: BaseVariableType
         DataType: Size
@@ -1588,6 +1588,27 @@ Children:
       DataType: Size
       ModellingRule: Optional
       Value: 20.0
+  - Name: Image1
+    Type: Image
+    Children:
+    - Name: Path
+      Type: BaseDataVariableType
+      DataType: ResourceUri
+      Value: "ns=7;%PROJECTDIR%/The Sorting Sprint Logo Transparent.png"
+    - Name: LeftMargin
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+    - Name: TopMargin
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 390.0
+    - Name: Width
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 400.0
 - File: Screens/Screens.yaml
 - File: Keyboards/Keyboards.yaml
 - File: Widgets/Widgets.yaml
