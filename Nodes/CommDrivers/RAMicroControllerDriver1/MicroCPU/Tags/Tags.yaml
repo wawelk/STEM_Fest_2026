@@ -422,6 +422,7 @@ Children:
     DataType: String
     Value: "Game_Timer_Seconds"
 - Name: LineA_Belt_Speed
+  Id: g=c9ad3e80b3f252848df49f7736a6b0ba
   Type: MicroControllerTag
   DataType: Float
   Children:
@@ -505,6 +506,7 @@ Children:
     DataType: String
     Value: "LineA_Total_Count"
 - Name: LineB_Belt_Speed
+  Id: g=1a9bb1bcee222662573e13521c6a5e00
   Type: MicroControllerTag
   DataType: Float
   Children:
